@@ -1,0 +1,46 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Georgia;
+  background-image: url('/background.jpg'); /* Correct relative path */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+
+.App {
+  text-align: center;
+  padding: 20px;
+  background: rgba(0, 0, 0, 0.5); /* Optional: Adds a semi-transparent background for readability */
+  border-radius: 10px;
+}
+
+.App-header {
+  color: white;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+input[type="text"] {
+  padding: 8px;
+  margin-right: 8px;
+  border-radius: 4px;
+  border: 1px solid white; /* Fixed border style */
+}
+
+button {
+  padding: 8px 16px;
+  border-radius: 4px;
+  border: none;
+  color: lightseagreen;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: darkblue;
+}
